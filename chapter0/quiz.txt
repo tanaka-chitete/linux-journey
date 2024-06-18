@@ -1,0 +1,26 @@
+1) Who developed the Linux kernel?
+Linus Torvalds
+
+2) What kind of release does Testing and Unstable have?
+Rolling
+
+3) What package manager does RHEL use?
+RPM
+
+4) What OS is Ubuntu based on?
+Debian
+
+5) What is RHEL branched from?
+Fedora
+
+6) What is Mint based on?
+Ubuntu
+
+7) What package management system does Gentoo use?
+Portage
+
+8) What package manager does Arch use?
+Pacman
+
+9) What is the name of openSUSE's Administration/Installation tool?
+YaST
