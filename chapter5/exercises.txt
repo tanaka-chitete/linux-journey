@@ -1,0 +1,9 @@
+1) Do the following:
+a) Open a terminal window and run the following command (to watch for the passwd 
+process):
+$ watch -n 1 "ps aux | grep passwd"
+b) Open another terminal window and run the following command:
+$ passwd
+c) Look at the first terminal window, you'll see a process come up for passwd.
+The first column in the process table is the effective user ID. Lo and behold, 
+it's the root user!

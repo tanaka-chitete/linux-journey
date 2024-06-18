@@ -1,0 +1,32 @@
+1) What permission bit is used for executable?
+x
+
+2) What number represents the read permission when using numerical format?
+4
+
+3) What command do you use to change user ownership?
+chown
+
+4) Do the following:
+a) Create a new file, then note its permissions
+$ touch test
+$ ls -l test
+-rw-rw-r-- 1 tanaka-chitete tanaka-chitete 0 Jun 19 00:59 test
+b) Modify the umask and then create another new file
+$ umask 022
+$ touch test2
+c) Check the permissions once more on the new file, what do you expect to see?
+$ ls -l test
+-rw-r--r-- 1 tanaka-chitete tanaka-chitete 0 Jun 19 01:01 test2
+
+5) What number represents the SUID?
+4
+
+6) What number represents the SGID?
+2
+
+7) What UID decides what access to grant?
+effective
+
+8) What symbol represents the sticky bit?
+t
