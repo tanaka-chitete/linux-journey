@@ -1,0 +1,14 @@
+1) What command do you use to run as root?
+sudo
+
+2) What file shows the users who have access to sudo?
+/etc/sudoers
+
+3) If a user doesn't have login access, how is that denoted in /etc/passwd?
+*
+
+4) What is the GID of root?
+0
+
+5) What command is used to change a password?
+passwd
