@@ -1,0 +1,50 @@
+1) What redirector do you use to append output to a file?
+>>
+
+2) What redirector do you use to redirect stdin?
+<
+
+3) What is the redirector for stderror?
+2>
+
+4) What key represents the pipe operator?
+|
+
+5) How do you see your environment variables?
+env
+
+6) What command would you use to get the first character of every line in a
+file?
+cut -c 1
+
+7) What flag do you use with pase to make everything go on one line?
+-s
+
+8) What flag would you use to change the number of lines you want to view for
+the head command?
+-n
+
+9) What is the flag used to follow a file in tail?
+-f
+
+10) What command is used to convert TABs to spaces?
+expand
+
+11) What command would you use to join files named cat dog cow?
+join cat dog cow
+
+12) What flag do you use to do a reverse sort?
+-r
+
+13) What command is used to translate characters?
+tr
+
+14) What command would you use to remove duplicates in a file?
+uniq
+
+15) What command would you use to get the total number of just the words in a 
+file?
+wc -w
+
+16) What command would you use to find a certain pattern?
+grep

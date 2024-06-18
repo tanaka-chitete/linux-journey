@@ -1,0 +1,56 @@
+1) Run the following the commands:
+a) $ ls -l /var/log > myoutput.txt
+b) $ echo Hello World > rm
+c) $ > somefile.txt
+
+2) Run the following the commands:
+a) $ echo < peanuts.txt > banana.txt
+b) $ ls < peanuts.txt > banana.txt
+c) $ pwd < peanuts.txt > banana.txt
+
+3) Explain the following command:
+$ ls /fake/directory >> /dev/null 2>&1
+It appends the output of ls/fake/directory to /dev/null and then redirects 
+stderr to stdout via 2>&1
+
+4) Run the following command:
+$ ls | tee peanuts.txt banan.txt
+...
+
+5) Explain the following command:
+$ echo $HOME
+It prints the home directory (/home/tanaka-chitete)
+
+6) Explain the following commands:
+a) $ cut -c 5-10 sample.txt
+It prints the fifth-through tenth characters of sample.txt ("quick")
+b) $ cut -c 5- sample.txt
+It prints the fifth through last characters of sample.txt ("quick brown; fox 
+jumps over the lazy    dog")
+c) $ cut -c -5 sample.txt
+It prints the first five characters of sample.txt ("The q")
+
+7) Explain the following command:
+$ head -c 15 /var/log/syslog
+It prints the first 15 bytes of /var/log/syslog
+
+8) What happens if you just type expand with no file input?
+The command awaits user input to process
+
+9) Explain the following command:
+$ ls /etc | sort -rn
+It lists the contents of /etc and sorts them in numerical order, in reverse
+
+10) Explain the following command:
+$ tr -d ello
+hello
+It deletes characters from set2 (hello) using those in set1 (ello), printing "h"
+
+11) Explain the following command:
+$ uniq -uc <file>
+It prints all unique lines in the file and their respective counts (which will 
+always be one)
+
+12) How would you get the total count of lines by using nl without searching
+through the entire output?
+$ nl <file> | wc -l

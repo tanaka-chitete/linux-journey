@@ -1,0 +1,8 @@
+banana.txt
+banan.txt
+exercises.txt
+myoutput.txt
+peanuts.txt
+quiz.txt
+rm
+somefile.txt
