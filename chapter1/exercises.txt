@@ -1,0 +1,53 @@
+1) Run the following commands:
+a) $ date
+Tue Jun 18 10:57:23 PM AEST 2024
+b) $ whoami
+tanaka-chitete
+
+2) Explain the following command:
+$ cd
+
+3) Explain the following command
+$ cd
+It changes the current working directory to the home directory
+(/home/tanaka-chitete).
+
+4) Explain the following commands:
+a) $ ls -R
+Recursively lists directory contents
+b) $ ls -r
+Lists directory contents sorted by name, in reverse
+c) $ ls -t
+Lists directory contents sorted by modification time
+
+5) Do the following:
+a) Create a new file
+$ touch test
+b) Note the timestamp
+$ ls -l test
+-rw-rw-r-- 1 tanaka-chitete tanaka-chitete 0 Jun 18 23:10 test
+c) Touch the file and check the timestamp again
+$ touch test
+$ ls -l test
+-rw-rw-r-- 1 tanaka-chitete tanaka-chitete 0 Jun 18 23:11 test
+
+6) Find a file from the root directory that has the word net in it
+$ find / -name '*net*'
+...
+/etc/netplan/01-network-manager-all.yaml
+...
+
+7) Run the following commands:
+a) $ help echo
+...
+b) $ help logout
+...
+c) $ help pwd
+
+8) Run the following command:
+$ man ls
+...
+
+9) Run the follwing command:
+$ whatis less
+...
