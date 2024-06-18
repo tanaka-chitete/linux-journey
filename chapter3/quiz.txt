@@ -1,0 +1,29 @@
+1) What regular expression would you use to match a single character?
+.
+
+2) What key is used to search in vim?
+/
+
+3) What key is used to move down in vim?
+j
+
+4) What key is used to insert text before the cursor?
+i
+
+5) What command is used to delete an entire line?
+dd
+
+6) How do you quit out of vim without saving?
+q
+
+7) What command is used to open a file in emacs?
+C-x C-f
+
+8) How do you close a buffer in emacs?
+C-x k
+
+9) How do you move to the end of a buffer in emacs?
+M->
+
+10) How do you access the help menu in emacs?
+C-h C-h
