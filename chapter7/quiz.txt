@@ -1,0 +1,14 @@
+1) Where is the sources file in Debian?
+/etc/apt/sources.list
+
+2) What tar flag is used to create archives?
+c
+
+3) What is the package management tool for .deb files?
+dpkg
+
+4) What command is used to show package information on Debian?
+apt show
+
+5) What should you use instead of make ALWAYS?
+checkinstall
