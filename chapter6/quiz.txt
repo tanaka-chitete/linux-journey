@@ -1,0 +1,33 @@
+1) What ps flag is used to view detailed information about a process?
+u
+
+2) What value is given for a process that does not have a controlling terminal?
+?
+
+3) What manages and controls processes?
+The kernel
+
+4) What system call creates a new process?
+fork
+
+5) What is the most common termination status for a process succeeding?
+0
+
+6) What signal is unblockable?
+SIGKILL
+
+7) What is the signal name for the default kill command?
+SIGTERM
+
+8) If I want a process to get more CPU priority, do I use a lower or higher nice
+number?
+lower
+
+9) What STAT code is used to represent an uninterruptible sleep?
+D
+
+10) What filesystem stores process information?
+/proc
+
+11) What command is used to list background jobs?
+jobs
