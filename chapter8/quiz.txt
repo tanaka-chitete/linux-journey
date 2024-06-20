@@ -1,0 +1,21 @@
+1) Where are device files stores on the system?
+/dev
+
+2) What is the symbol for character devices in the ls -l command?
+c
+
+3) What would commonly be the device name for the first partition on the second
+SCSI disk?
+sdb1
+
+4) What directory is used to view detailed information about devices?
+/sys
+
+5) What dynamically adds and removes devices?
+udev
+
+6) What command can be used to view USB devices?
+lsusb
+
+7) What is the dd option for block size?
+bs
